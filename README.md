@@ -28,11 +28,4 @@ Body của `POST` và `PUT` gồm `category_id`, `name`, `price`, `quantity`; `d
 
 CRUD đang sử dụng đúng cấu trúc bảng `products` trong [`sql/schema.sql`](sql/schema.sql), bao gồm quan hệ khóa ngoại với bảng `categories`.
 
-## Minh chứng nộp bài
 
-Thêm ảnh chụp màn hình chạy `.devcontainer`, kết nối CSDL và các request CRUD vào `docs/screenshots/`, sau đó chèn ảnh vào README theo mẫu:
-
-```markdown
-![Kết nối CSDL](docs/screenshots/database.png)
-![CRUD products](docs/screenshots/crud-products.png)
-```
