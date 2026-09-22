@@ -1,0 +1,14 @@
+{
+  "name": "Node.js Online Shop API",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/mysql:1": {}
+  },
+  "forwardPorts": [3000, 3306],
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}
