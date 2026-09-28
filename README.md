@@ -13,6 +13,10 @@ npm install
 npm start
 ```
 
+## Chạy bằng VS Code Dev Container
+
+Mở thư mục dự án trong Dev Container. Cấu hình sẽ cài dependency, khởi chạy MySQL và nạp schema cùng dữ liệu mẫu khi database được tạo lần đầu. API chạy tại cổng `3000`; MySQL dùng cổng `3306`.
+
 ## API CRUD
 
 | Method | Endpoint | Mô tả |
@@ -27,5 +31,4 @@ Body của `POST` và `PUT` gồm `category_id`, `name`, `price`, `quantity`; `d
 `status` nhận một trong hai giá trị `active` hoặc `inactive`.
 
 CRUD đang sử dụng đúng cấu trúc bảng `products` trong [`sql/schema.sql`](sql/schema.sql), bao gồm quan hệ khóa ngoại với bảng `categories`.
-
 

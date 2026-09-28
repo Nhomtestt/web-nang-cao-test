@@ -1,4 +1,4 @@
-CREATE DATABASE online_shop;
+CREATE DATABASE IF NOT EXISTS online_shop;
 
 USE online_shop;
 
